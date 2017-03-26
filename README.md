@@ -1,9 +1,10 @@
-#Fit data with Neural Net
+# Fit data with Neural Net
 
 ![Example](Fit.png)
 
 This project works thanks to [@deeplearning4J](https://github.com/deeplearning4j/deeplearning4j) libraries.
-#Configuration
+
+# Configuration
 ```
 MultiLayerConfiguration conf = new NeuralNetConfiguration.Builder()
 				.seed(seed)
@@ -27,5 +28,5 @@ MultiLayerConfiguration conf = new NeuralNetConfiguration.Builder()
 		MultiLayerNetwork net=new  MultiLayerNetwork(conf);
 ```
 
-#License
+# License
 See [LICENSE](LICENSE)
